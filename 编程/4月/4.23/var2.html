@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>物种</h1>
+    <p>点击某个物种来查看其类别：</p>
+    <ul>
+        <li onclick="showDetails(this)" data-animal-type="鸟类">喜鹊</li>
+        <li onclick="showDetails(this)" data-animal-type="鱼类">金枪鱼</li>
+        <li onclick="showDetails(this)" data-animal-type="蜘蛛">蝇虎</li>
+    </ul>
+    <script>
+        function showDetails(animal) {
+            //getAttribute()作用：通过属性名找到属性的属性值
+            var animalType = animal.getAttribute("data-animal-type");
+            alert(animal.innerHTML +'是一种' +  animalType +'。');
+        }
+    </script>
+</body>
+</html>

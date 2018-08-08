@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/程序/输入月份求第几天.py" line="16" />
+    <bookmark url="file://$PROJECT_DIR$/程序/比较大小.py" line="12" />
+    <bookmark url="file://$PROJECT_DIR$/程序/receiver.py" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/1月/1.17/shopping回忆.py" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/2月/2.26/pool进程池.py" />
+    <bookmark url="file://$PROJECT_DIR$/项目练习/HTML/pg.css" line="1" />
+    <bookmark url="file://$PROJECT_DIR$/项目练习/HTML/静态网页.html" line="61" />
+    <bookmark url="file://$PROJECT_DIR$/3月/3.16/左侧菜单.html" line="34" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3700bd78-bbf3-4ca4-ba4e-e6fccd0cf93c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$s_a_aa_aaa.coverage" NAME="求s=a+aa+aaa。。。。。 Coverage Results" MODIFIED="1513320161652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$shopping.coverage" NAME="shopping回忆 Coverage Results" MODIFIED="1516168241834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.17" />
+    <SUITE FILE_PATH="coverage/$var4__1_.coverage" NAME="var4 (1) Coverage Results" MODIFIED="1523265598372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.9" />
+    <SUITE FILE_PATH="coverage/$pool2.coverage" NAME="pool2 Coverage Results" MODIFIED="1519624732048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.26" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_name_function_NameTestCase_test_first_last_modle_name.coverage" NAME="Unittests for test_name_function.NameTestCase.test_first_last_modle_name Coverage Results" MODIFIED="1523602668173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$guess_for.coverage" NAME="guess for Coverage Results" MODIFIED="1519624112452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.13" />
+    <SUITE FILE_PATH="coverage/$pika_send.coverage" NAME="pika_send Coverage Results" MODIFIED="1519984240920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.2" />
+    <SUITE FILE_PATH="coverage/$receiver.coverage" NAME="receiver Coverage Results" MODIFIED="1515332246022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$sock_server_.coverage" NAME="sock_server_文件传输 Coverage Results" MODIFIED="1518314178155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.10" />
+    <SUITE FILE_PATH="coverage/$Count_Sort.coverage" NAME="Count_Sort Coverage Results" MODIFIED="1533541437865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.6" />
+    <SUITE FILE_PATH="coverage/$manager.coverage" NAME="manager进程间数据共享 Coverage Results" MODIFIED="1519614742839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.26" />
+    <SUITE FILE_PATH="coverage/$Select_Sort__2_.coverage" NAME="Select_Sort (2) Coverage Results" MODIFIED="1532783042244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.28" />
+    <SUITE FILE_PATH="coverage/$gevnet.coverage" NAME="gevnet模块 Coverage Results" MODIFIED="1519656596354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.26" />
+    <SUITE FILE_PATH="coverage/$py_sqlalch.coverage" NAME="py_sqlalch Coverage Results" MODIFIED="1520165925485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.4" />
+    <SUITE FILE_PATH="coverage/$name_function.coverage" NAME="name_function Coverage Results" MODIFIED="1523602351188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$Binary_Search1.coverage" NAME="Binary_Search1 Coverage Results" MODIFIED="1533392130475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$guess_.coverage" NAME="guess 任性玩 Coverage Results" MODIFIED="1519490136096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.13" />
+    <SUITE FILE_PATH="coverage/$101_200.coverage" NAME="101-200之间的素数 Coverage Results" MODIFIED="1512986198830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$language_survey.coverage" NAME="language_survey Coverage Results" MODIFIED="1523609197454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$decorator2.coverage" NAME="decorator2 Coverage Results" MODIFIED="1516709325061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.23" />
+    <SUITE FILE_PATH="coverage/$var3.coverage" NAME="var3 Coverage Results" MODIFIED="1523364393221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.10" />
+    <SUITE FILE_PATH="coverage/$guess_while.coverage" NAME="guess while Coverage Results" MODIFIED="1515846605349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.13" />
+    <SUITE FILE_PATH="coverage/$single_circle_link_list.coverage" NAME="single_circle_link_list Coverage Results" MODIFIED="1532575653104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.25" />
+    <SUITE FILE_PATH="coverage/$sys_mod.coverage" NAME="sys_mod Coverage Results" MODIFIED="1515901693948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.14" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_test_city_country_funtions_py.coverage" NAME="Unittests in test_city_country_funtions.py Coverage Results" MODIFIED="1523604817370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$Insert_Sort.coverage" NAME="Insert_Sort Coverage Results" MODIFIED="1533437299109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="插入排序 Coverage Results" MODIFIED="1521292407633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.17" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_test_name_function_py.coverage" NAME="Unittests in test_name_function.py Coverage Results" MODIFIED="1523602775592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$socket_server.coverage" NAME="socket_server Coverage Results" MODIFIED="1520824337402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.7" />
+    <SUITE FILE_PATH="coverage/$pickle.coverage" NAME="读出pickle方法的二进制数 Coverage Results" MODIFIED="1514965331762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1519192416382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.17/ATM/bin" />
+    <SUITE FILE_PATH="coverage/$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1533265909197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.3" />
+    <SUITE FILE_PATH="coverage/$sock_client_.coverage" NAME="sock_client_文件传输 Coverage Results" MODIFIED="1518314180072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.10" />
+    <SUITE FILE_PATH="coverage/$mysql.coverage" NAME="mysql练习 Coverage Results" MODIFIED="1520164174697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.4" />
+    <SUITE FILE_PATH="coverage/$Select_Sort__1_.coverage" NAME="Select_Sort (1) Coverage Results" MODIFIED="1532698255927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.27" />
+    <SUITE FILE_PATH="coverage/$Select_Sort1.coverage" NAME="Select_Sort1 Coverage Results" MODIFIED="1533475394687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_survey_TestAnonymousSurvey_test_store_single_response.coverage" NAME="Unittests for test_survey.TestAnonymousSurvey.test_store_single_response Coverage Results" MODIFIED="1523610891430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_name_function_NameTestCase.coverage" NAME="Unittests for test_name_function.NameTestCase Coverage Results" MODIFIED="1523602743025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$copy_name.coverage" NAME="copy_name Coverage Results" MODIFIED="1515983883027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.15" />
+    <SUITE FILE_PATH="coverage/$var5.coverage" NAME="var5 Coverage Results" MODIFIED="1523091435717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.7" />
+    <SUITE FILE_PATH="coverage/$var3__1_.coverage" NAME="var3 (1) Coverage Results" MODIFIED="1523455056786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.11" />
+    <SUITE FILE_PATH="coverage/$var1__1_.coverage" NAME="var1 (1) Coverage Results" MODIFIED="1529567055567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6月/6.14" />
+    <SUITE FILE_PATH="coverage/$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1530338053806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6月/6.30" />
+    <SUITE FILE_PATH="coverage/$pickle_.coverage" NAME="pickle 写入二进制 Coverage Results" MODIFIED="1514895672539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$hashilb.coverage" NAME="hashilb加密 Coverage Results" MODIFIED="1517388875724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.31" />
+    <SUITE FILE_PATH="coverage/$var8.coverage" NAME="var8 Coverage Results" MODIFIED="1523280018782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.9" />
+    <SUITE FILE_PATH="coverage/$redis.coverage" NAME="redis模块 Coverage Results" MODIFIED="1519996685650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.2" />
+    <SUITE FILE_PATH="coverage/$single_link__1_.coverage" NAME="single_link (1) Coverage Results" MODIFIED="1532526819290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.25" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_name_function_NameTestCase_test_first_last_name.coverage" NAME="Unittests for test_name_function.NameTestCase.test_first_last_name Coverage Results" MODIFIED="1523602767144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$socket__client.coverage" NAME="socket_文件传输_client Coverage Results" MODIFIED="1520912621646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.13" />
+    <SUITE FILE_PATH="coverage/$socket_client__1_.coverage" NAME="socket_client (1) Coverage Results" MODIFIED="1518059045209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.8" />
+    <SUITE FILE_PATH="coverage/$5_3.coverage" NAME="5-3 Coverage Results" MODIFIED="1516868567910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/book_example" />
+    <SUITE FILE_PATH="coverage/$greenlet.coverage" NAME="greenlet模块 Coverage Results" MODIFIED="1519626639400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.26" />
+    <SUITE FILE_PATH="coverage/$var5__1_.coverage" NAME="var5 (1) Coverage Results" MODIFIED="1523265792990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.9" />
+    <SUITE FILE_PATH="coverage/$sock_server_ssh__1_.coverage" NAME="sock_server_ssh (1) Coverage Results" MODIFIED="1518187366666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python学习/第08周-Python3.5-零基础-高级-完整项目剖析-共11章节/源码/源码" />
+    <SUITE FILE_PATH="coverage/$selector.coverage" NAME="selector模块 Coverage Results" MODIFIED="1519705243223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.27" />
+    <SUITE FILE_PATH="coverage/$socket_client.coverage" NAME="socket_client Coverage Results" MODIFIED="1520824405362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.7" />
+    <SUITE FILE_PATH="coverage/$sock_server_client.coverage" NAME="sock_server_client Coverage Results" MODIFIED="1518187369458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/python学习/第08周-Python3.5-零基础-高级-完整项目剖析-共11章节/源码/源码" />
+    <SUITE FILE_PATH="coverage/$xml.coverage" NAME="xml练习 Coverage Results" MODIFIED="1517303687610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.30" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_city_country_funtions_CityCountryTestCase_test_city_country_formatted.coverage" NAME="Unittests for test_city_country_funtions.CityCountryTestCase.test_city_country_formatted Coverage Results" MODIFIED="1523605406450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$Insert_Sort__1_.coverage" NAME="Insert_Sort (1) Coverage Results" MODIFIED="1533476145648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$interaction.coverage" NAME="interaction Coverage Results" MODIFIED="1515826913208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.13" />
+    <SUITE FILE_PATH="coverage/$qqq.coverage" NAME="qqq Coverage Results" MODIFIED="1532445098708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.24" />
+    <SUITE FILE_PATH="coverage/$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1516695432627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.23" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_city_country_funtions_CityCountryTestCase_test_city_country_population.coverage" NAME="Unittests for test_city_country_funtions.CityCountryTestCase.test_city_country_population Coverage Results" MODIFIED="1523605305423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$socket.coverage" NAME="socket客户端 Coverage Results" MODIFIED="1518071169953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.8" />
+    <SUITE FILE_PATH="coverage/$sock_client_ssh__1_.coverage" NAME="sock_client_ssh (1) Coverage Results" MODIFIED="1518233073454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.10" />
+    <SUITE FILE_PATH="coverage/$Insertion_Sort__1_.coverage" NAME="Insertion_Sort (1) Coverage Results" MODIFIED="1532783807069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.28" />
+    <SUITE FILE_PATH="coverage/$app.coverage" NAME="app Coverage Results" MODIFIED="1520230687232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.5" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_employee_TestEmployee_test_give_default.coverage" NAME="Unittests for test_employee.TestEmployee.test_give_default Coverage Results" MODIFIED="1523624158460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$sender.coverage" NAME="sender Coverage Results" MODIFIED="1515331912479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$___new__.coverage" NAME="___new__ Coverage Results" MODIFIED="1517893544892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.6" />
+    <SUITE FILE_PATH="coverage/$db_handle.coverage" NAME="db_handle Coverage Results" MODIFIED="1519052936576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.17/ATM/core" />
+    <SUITE FILE_PATH="coverage/$socket__server.coverage" NAME="socket_文件传输_server Coverage Results" MODIFIED="1520912618535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.13" />
+    <SUITE FILE_PATH="coverage/$Shell_Sort1.coverage" NAME="Shell_Sort1 Coverage Results" MODIFIED="1533435988804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$Shell_Sort__2_.coverage" NAME="Shell_Sort (2) Coverage Results" MODIFIED="1533041107098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.31" />
+    <SUITE FILE_PATH="coverage/$single_link.coverage" NAME="single_link Coverage Results" MODIFIED="1532570896785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.24" />
+    <SUITE FILE_PATH="coverage/$Bubble_Sort__1_.coverage" NAME="Bubble_Sort (1) Coverage Results" MODIFIED="1533348692927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$auth.coverage" NAME="auth Coverage Results" MODIFIED="1519094899185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.17/ATM/core" />
+    <SUITE FILE_PATH="coverage/$settings.coverage" NAME="settings Coverage Results" MODIFIED="1518925677481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/atm/atm/conf" />
+    <SUITE FILE_PATH="coverage/$haproxy.coverage" NAME="修改haproxy配置文件 Coverage Results" MODIFIED="1516609419618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.22" />
+    <SUITE FILE_PATH="coverage/$sock_client_ssh.coverage" NAME="sock_client_ssh Coverage Results" MODIFIED="1518232022150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.9" />
+    <SUITE FILE_PATH="coverage/$Insert_Sort1.coverage" NAME="Insert_Sort1 Coverage Results" MODIFIED="1533434244820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$server.coverage" NAME="server服务端 Coverage Results" MODIFIED="1520824427164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.12" />
+    <SUITE FILE_PATH="coverage/$Insertion_Sort.coverage" NAME="Insertion_Sort Coverage Results" MODIFIED="1532698664560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.27" />
+    <SUITE FILE_PATH="coverage/$accounts_path.coverage" NAME="accounts_path Coverage Results" MODIFIED="1518925450756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.17/ATM/db/accounts" />
+    <SUITE FILE_PATH="coverage/$atm.coverage" NAME="atm Coverage Results" MODIFIED="1518926981464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/atm/atm/bin" />
+    <SUITE FILE_PATH="coverage/$Shell_Sort__1_.coverage" NAME="Shell_Sort (1) Coverage Results" MODIFIED="1532924196275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.30" />
+    <SUITE FILE_PATH="coverage/$Quick_Sort.coverage" NAME="Quick_Sort Coverage Results" MODIFIED="1533476800360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$Merge_Sort2.coverage" NAME="Merge_Sort2 Coverage Results" MODIFIED="1533535367405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.6" />
+    <SUITE FILE_PATH="coverage/$sock_server_ssh__2_.coverage" NAME="sock_server_ssh (2) Coverage Results" MODIFIED="1518233071432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.10" />
+    <SUITE FILE_PATH="coverage/$Merge_Sort111.coverage" NAME="Merge_Sort111 Coverage Results" MODIFIED="1533526122653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.6" />
+    <SUITE FILE_PATH="coverage/$Binary_Tree__1_.coverage" NAME="Binary_Tree (1) Coverage Results" MODIFIED="1533537204586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.6" />
+    <SUITE FILE_PATH="coverage/$socket_client2.coverage" NAME="socket_client2 Coverage Results" MODIFIED="1518059047982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.8" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_employee_TestEmployee.coverage" NAME="Unittests for test_employee.TestEmployee Coverage Results" MODIFIED="1523624230243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$Binary_Search.coverage" NAME="Binary_Search Coverage Results" MODIFIED="1533474595511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$client.coverage" NAME="client客户端 Coverage Results" MODIFIED="1520824429301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.12" />
+    <SUITE FILE_PATH="coverage/$shell_sed.coverage" NAME="shell sed替换功能 Coverage Results" MODIFIED="1516590437072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.22" />
+    <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1518855722334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/atm/atm/core" />
+    <SUITE FILE_PATH="coverage/$var6.coverage" NAME="var6 Coverage Results" MODIFIED="1523275625993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.9" />
+    <SUITE FILE_PATH="coverage/$var1.coverage" NAME="var1 Coverage Results" MODIFIED="1530518992391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月" />
+    <SUITE FILE_PATH="coverage/$__100__168_.coverage" NAME="求一个整数 +100 +168 是完全平方数 Coverage Results" MODIFIED="1512886599153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$pika_receive.coverage" NAME="pika_receive Coverage Results" MODIFIED="1519978486531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.2" />
+    <SUITE FILE_PATH="coverage/$pillow_Draw.coverage" NAME="pillow_Draw Coverage Results" MODIFIED="1530795828200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.5" />
+    <SUITE FILE_PATH="coverage/$session.coverage" NAME="装饰器session Coverage Results" MODIFIED="1520907994158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3月/3.12" />
+    <SUITE FILE_PATH="coverage/$Bubble_Sort1.coverage" NAME="Bubble_Sort1 Coverage Results" MODIFIED="1533392464668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$Quick_Sort1.coverage" NAME="Quick_Sort1 Coverage Results" MODIFIED="1533436394466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.4" />
+    <SUITE FILE_PATH="coverage/$various.coverage" NAME="various Coverage Results" MODIFIED="1523263659265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.9" />
+    <SUITE FILE_PATH="coverage/$var7.coverage" NAME="var7 Coverage Results" MODIFIED="1523276729854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.9" />
+    <SUITE FILE_PATH="coverage/$pika_receive2.coverage" NAME="pika_receive2 Coverage Results" MODIFIED="1519978490035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.2" />
+    <SUITE FILE_PATH="coverage/$pool.coverage" NAME="pool进程池 Coverage Results" MODIFIED="1519626377238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.26" />
+    <SUITE FILE_PATH="coverage/$var1__2_.coverage" NAME="var1 (2) Coverage Results" MODIFIED="1530974174242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7月/7.7" />
+    <SUITE FILE_PATH="coverage/$var2.coverage" NAME="var2 Coverage Results" MODIFIED="1527400802031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5月/5.27" />
+    <SUITE FILE_PATH="coverage/$Merge_Sort__1_.coverage" NAME="Merge_Sort (1) Coverage Results" MODIFIED="1533524285701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.6" />
+    <SUITE FILE_PATH="coverage/$var__1_.coverage" NAME="var (1) Coverage Results" MODIFIED="1517885443355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.5" />
+    <SUITE FILE_PATH="coverage/$VAR.coverage" NAME="VAR Coverage Results" MODIFIED="1522732586243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.3" />
+    <SUITE FILE_PATH="coverage/$func__test.coverage" NAME="func__test Coverage Results" MODIFIED="1516505520199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.21" />
+    <SUITE FILE_PATH="coverage/$random_test.coverage" NAME="random_test Coverage Results" MODIFIED="1517036049952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.27" />
+    <SUITE FILE_PATH="coverage/$configparser.coverage" NAME="configparser读 Coverage Results" MODIFIED="1517387780361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.31" />
+    <SUITE FILE_PATH="coverage/$_.coverage" NAME="继承-学校 Coverage Results" MODIFIED="1517722356959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.3" />
+    <SUITE FILE_PATH="coverage/$Binary_Tree.coverage" NAME="Binary_Tree Coverage Results" MODIFIED="1533478438830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_survey_TestAnonymousSurvey.coverage" NAME="Unittests for test_survey.TestAnonymousSurvey Coverage Results" MODIFIED="1523611215775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$sock_server_ssh.coverage" NAME="sock_server_ssh Coverage Results" MODIFIED="1518232020047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.9" />
+    <SUITE FILE_PATH="coverage/$Shell_Sort.coverage" NAME="Shell_Sort Coverage Results" MODIFIED="1533476452554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$4_9.coverage" NAME="4.9 Coverage Results" MODIFIED="1523262848694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月" />
+    <SUITE FILE_PATH="coverage/$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1512908403464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
+    <SUITE FILE_PATH="coverage/$scoket_select_server.coverage" NAME="scoket_select_server Coverage Results" MODIFIED="1519702078649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.27" />
+    <SUITE FILE_PATH="coverage/$decorator4.coverage" NAME="decorator4 Coverage Results" MODIFIED="1516760667389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.23" />
+    <SUITE FILE_PATH="coverage/$var.coverage" NAME="var Coverage Results" MODIFIED="1523086985365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.7" />
+    <SUITE FILE_PATH="coverage/$py_sqlalchemy.coverage" NAME="py_sqlalchemy Coverage Results" MODIFIED="1520165807004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.4" />
+    <SUITE FILE_PATH="coverage/$MysocktServer.coverage" NAME="MysocktServer Coverage Results" MODIFIED="1519489858111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.11" />
+    <SUITE FILE_PATH="coverage/$decorator__1_.coverage" NAME="decorator (1) Coverage Results" MODIFIED="1516868269990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.23" />
+    <SUITE FILE_PATH="coverage/$Unittests_in_test_survey_py.coverage" NAME="Unittests in test_survey.py Coverage Results" MODIFIED="1523611146860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$socket_server__1_.coverage" NAME="socket_server (1) Coverage Results" MODIFIED="1518059041920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.8" />
+    <SUITE FILE_PATH="coverage/$atm__2_.coverage" NAME="atm (2) Coverage Results" MODIFIED="1516876649190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/atm/atm/bin" />
+    <SUITE FILE_PATH="coverage/$time_test.coverage" NAME="time_test Coverage Results" MODIFIED="1516970905562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1月/1.26" />
+    <SUITE FILE_PATH="coverage/$db_handler.coverage" NAME="db_handler Coverage Results" MODIFIED="1518926912888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/atm/atm/core" />
+    <SUITE FILE_PATH="coverage/$mysql_cnn.coverage" NAME="mysql_cnn Coverage Results" MODIFIED="1520152964084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/3.4" />
+    <SUITE FILE_PATH="coverage/$pydev_imports.coverage" NAME="pydev_imports Coverage Results" MODIFIED="1516682797097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle" />
+    <SUITE FILE_PATH="coverage/$var4.coverage" NAME="var4 Coverage Results" MODIFIED="1523455689070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.11" />
+    <SUITE FILE_PATH="coverage/$Select_Sort.coverage" NAME="Select_Sort Coverage Results" MODIFIED="1533475368554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$locks.coverage" NAME="locks Coverage Results" MODIFIED="1519535471901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2月/2.25" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_survey_TestAnonymousSurvey_test_store_three_response.coverage" NAME="Unittests for test_survey.TestAnonymousSurvey.test_store_three_response Coverage Results" MODIFIED="1523611079728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$Bubble_Sort.coverage" NAME="Bubble_Sort Coverage Results" MODIFIED="1533474885588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$Merge_Sort.coverage" NAME="Merge_Sort Coverage Results" MODIFIED="1533480719715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8月/8.5" />
+    <SUITE FILE_PATH="coverage/$Unittests_for_test_city_country_funtions_CityCountryTestCase.coverage" NAME="Unittests for test_city_country_funtions.CityCountryTestCase Coverage Results" MODIFIED="1523605533221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/4月/4.13" />
+    <SUITE FILE_PATH="coverage/$decorateor3.coverage" NAME="decorateor3 Coverage Results" MODIFIED="1516710066247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.23" />
+    <SUITE FILE_PATH="coverage/$__1_.coverage" NAME="练习 (1) Coverage Results" MODIFIED="1515844689433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1.13" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\PycharmProjects\编程\exportToHTML" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="574109096">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.265" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1152" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1152" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="编程" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/7月/7.26/Bubble_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.26/Select_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.27/Bubble_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.27/Select_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.27/Insertion_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.28/Select_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.28/Insertion_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.28/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.30/shell_sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.30/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.30/Quiick_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.30/Quick_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.31/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.31/Quick_Sort.py" />
+        <option value="$PROJECT_DIR$/7月/7.31/Insert_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.2/Select_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.2/Bubble_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.2/Insert_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.2/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.2/Quick_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.3/binary_tree.py" />
+        <option value="$PROJECT_DIR$/8月/8.3/Binary_Search.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/binary_tree.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Bubble_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Select_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Quick_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Binary_Search.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Binary_Tree1.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Binary_Search1.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Bubble_Sort1.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Insert_Sort1.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Shell_Sort1.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Quick_Sort1.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Insert_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Binary_Search.py" />
+        <option value="$PROJECT_DIR$/8月/8.4/Select_Sort1.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Select_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Insert_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Shell_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Quick_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Bubble_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.5/Merge_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.6/Merge_Sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.6/Merge_Sort111.py" />
+        <option value="$PROJECT_DIR$/8月/8.6/Merge_Sort2.py" />
+        <option value="$PROJECT_DIR$/8月/8.6/Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/8月/8.6/count_sort.py" />
+        <option value="$PROJECT_DIR$/8月/8.6/Count_Sort.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="12" />
+    <option name="y" value="2" />
+    <option name="width" value="1374" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="编程" type="b2602c69:ProjectViewProjectNode" />
+              <item name="编程" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="i &#9;null&#9;null&#10;listen&#9;FILE&#9;file://C:/Users/Pycharm/编程/book_example/django/venv/mysite/templates/listall.html&#10;piao&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="H:/Django项目" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="编程" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="编程" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\编程\8月\8.6" />
+      <recent name="C:\PycharmProjects\编程\8月\8.4" />
+      <recent name="C:\PycharmProjects\编程\8月\8.5" />
+      <recent name="C:\PycharmProjects\编程\8月\8.2" />
+      <recent name="C:\PycharmProjects\编程\7月\7.5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\编程\7月\7.1" />
+      <recent name="C:\PycharmProjects\编程\3月" />
+      <recent name="C:\Users\Pycharm\编程\2月\2.1" />
+      <recent name="C:\Users\Pycharm\编程\1月\1.25\Atm\bin" />
+      <recent name="C:\Users\Administrator.2016-20160923QO\Desktop\编程\程序" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Count_Sort">
+    <configuration name="Binary_Tree (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8月/8.6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8月/8.6/Binary_Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Count_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8月/8.6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8月/8.6/Count_Sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Insertion_Sort (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7月/7.28" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7月/7.28/Insertion_Sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Merge_Sort (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8月/8.6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8月/8.6/Merge_Sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Merge_Sort111" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8月/8.6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\PycharmProjects\编程\8月\8.6\Merge_Sort1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Merge_Sort2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/8月/8.6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8月/8.6/Merge_Sort2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.23" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.23/decorator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="编程" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.23" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.Merge_Sort (1)" />
+      <item itemvalue="Python.Merge_Sort111" />
+      <item itemvalue="Python.Merge_Sort2" />
+      <item itemvalue="Python.Binary_Tree (1)" />
+      <item itemvalue="Python.Count_Sort" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Count_Sort" />
+        <item itemvalue="Python.Binary_Tree (1)" />
+        <item itemvalue="Python.Merge_Sort2" />
+        <item itemvalue="Python.Merge_Sort111" />
+        <item itemvalue="Python.Merge_Sort (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator.2016-20160923QO\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3700bd78-bbf3-4ca4-ba4e-e6fccd0cf93c" name="Default" comment="" />
+      <created>1512558752059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512558752059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_employee_TestEmployee - 2018.04.13 at 20h 57m 10s.xml">
+      <configuration name="Unittests for test_employee.TestEmployee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_employee_TestEmployee_test_give_default - 2018.04.13 at 20h 55m 58s.xml">
+      <configuration name="Unittests for test_employee.TestEmployee.test_give_default" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey - 2018.04.13 at 17h 11m 40s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey - 2018.04.13 at 17h 20m 03s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey - 2018.04.13 at 17h 20m 16s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey_test_store_single_response - 2018.04.13 at 17h 12m 51s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey.test_store_single_response" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey_test_store_single_response - 2018.04.13 at 17h 14m 51s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey.test_store_single_response" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey_test_store_three_response - 2018.04.13 at 17h 17m 25s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey.test_store_three_response" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_survey_TestAnonymousSurvey_test_store_three_response - 2018.04.13 at 17h 18m 00s.xml">
+      <configuration name="Unittests for test_survey.TestAnonymousSurvey.test_store_three_response" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_survey_py - 2018.04.13 at 17h 19m 07s.xml">
+      <configuration name="Unittests in test_survey.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827324" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007704" side_tool="true" weight="0.21252371" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48814815" weight="0.3263158" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.7508772" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49922958" weight="0.29122806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49237472" visible="true" weight="0.23820396" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32952815" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24886878" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56842107" />
+      <window_info id="Favorites" order="2" sideWeight="0.5076253" side_tool="true" weight="0.17246597" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32020548" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49237472" visible="true" weight="0.22222222" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24886878" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827324" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48814815" visible="true" weight="0.3140351" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.7508772" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56842107" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49922958" weight="0.29122806" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007704" side_tool="true" weight="0.21252371" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32952815" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32020548" />
+      <window_info id="Favorites" order="2" sideWeight="0.5076253" side_tool="true" weight="0.17246597" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="javascript-exception">
+          <dependency id="0" />
+          <properties />
+        </breakpoint>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="47" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/项目练习/HTML/静态网页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="127" column="50" lean-forward="true" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目练习/HTML/pg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.28/Select_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.30/Quick_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.28/Insertion_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.31/Insert_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.27/Bubble_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.26/Bubble_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.26/Select_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="41" column="6" selection-start-line="40" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.31/Quick_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.25/single_circle_link_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.2/Bubble_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.2/Insert_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4月/4.7/var3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.2/Quick_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.3/Binary_Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" selection-start-line="18" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1338941227/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="3632" column="8" selection-start-line="3632" selection-start-column="8" selection-end-line="3632" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.3/binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="33" selection-start-line="33" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Binary_Search1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Bubble_Sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="16" selection-start-line="14" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.2/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.28/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.30/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7月/7.31/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Select_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Quick_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Binary_Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="17" selection-start-line="17" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Bubble_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Select_Sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.2/Select_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Shell_Sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="35" selection-start-line="35" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Insert_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Insert_Sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Select_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Binary_Search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Quick_Sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Quick_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Shell_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Binary_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.4/Binary_Tree1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Bubble_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Merge_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Insert_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.6/Merge_Sort2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.6/Binary_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.6/Merge_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="33" selection-start-line="33" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.6/Merge_Sort1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.5/Binary_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="85" selection-start-line="85" selection-end-line="102" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8月/8.6/Count_Sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

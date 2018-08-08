@@ -1,0 +1,36 @@
+1.集合
+集合是一个无序的，不重复的数据组合，作用如下：
+   >>去重，把一个列表变成集合，就自动去重
+   >>关系测试，测试两组数据之前的交集、差集、并集等关系
+
+2.关系运算
+
+交集: set1.intersection(set2)
+并集: set1.union(set2)
+差集: set1.difference(set2)  #在set1有，set2没有
+子集: set1.issubset(set2)   #判断set1是否是set2的子集
+父集: set1.issuperset(set2)  #判断set1是否是set2的父
+对称差集: set1.symetric_difference(set2)  #把两个集合都有的即并集去掉，互相都没有的取出来
+判断是否有交集：set1.isdisjoint(set2)
+
+3.运算符关系运算
+交集:  & 
+并集:  |
+差集:  -
+对称差集:  ^
+子集: <=
+父集: >=
+
+4集合基本操作
+添加:  set1.add(x)     #添加一项
+更新:  set1.update([10,37,45])  #添加多项
+移除:  set1.remove()    #可以删除一项，不存在会报错
+移除:   set1.discard()  #移除一项，不存在不会报错，返回none
+
+测量长度: len(set1)
+
+x in set1   #测试x是否是set1的成员
+x not in set1 #测试x是否不是set1的成员
+浅复制: set1.copy()
+set1.pop()   #任意删除set1zhong的元素
+

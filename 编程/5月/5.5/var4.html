@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+    <button>开始动画</button>
+    <div style="background-color: blue;width: 100px;height: 100px;position: absolute"></div>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $("div").animate({left:'250px'});
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="添加" onclick="ShowModle()"/>
+    <input type="button" value="全选" onclick="ChooseAll()"/>
+    <input type="button" value="取消" onclick="CancleAll()"/>
+    <input type="button" value="反选" onclick="r=Reverse()"/>
+    <table>
+        <thead>
+            <tr>
+                <th>选择</th>
+                <th>主机</th>
+                <th>端口</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+            <tr>
+                <td><input type="checkbox"/></td>
+                <td>a</td>
+                <td>196.123.62</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"/></td>
+                <td>b</td>
+                <td>196.123.54</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <script>
+        function ChooseAll() {
+            var tr_list =document.getElementById('tb').children;
+            for (var i=0;i<tr_list.length;i++){
+                   var tr = tr_list[i];
+                   var checkbox= tr.children[0].children[0];
+                   checkbox.checked = true;
+            }
+        }
+        function CancleAll() {
+            var tr_list =document.getElementById('tb').children;
+            for (var i=0;i<tr_list.length;i++){
+                   var tr = tr_list[i];
+                   var checkbox= tr.children[0].children[0];
+                   checkbox.checked = false;
+            }
+        }
+        function Reverse() {
+            var tr_list =document.getElementById('tb').children;
+            for (var i=0;i<tr_list.length;i++){
+                   var tr = tr_list[i];
+                   var checkbox= tr.children[0].children[0];
+                   if(checkbox.checked){
+                        checkbox.checked = false;
+                   }else {
+                        checkbox.checked = true;
+                   }
+            }
+        }
+
+    </script>
+</body>
+</html>

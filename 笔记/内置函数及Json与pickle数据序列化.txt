@@ -1,0 +1,7 @@
+1.内置函数大全：
+https://www.cnblogs.com/pyyu/p/6702896.html
+
+2.__file__返回程序相对路径
+os.path.abspath(__file__)返回程序绝对路径
+
+os.path.dirname()返回上一层目录

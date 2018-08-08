@@ -1,0 +1,86 @@
+CSS
+    -在每个标签上可以设置style属性
+	
+    -编写css样式
+	1）标签的style属性
+
+	2）写在head里面，style标签中写样式
+	    -id选择器
+	      #i1{
+        	  background-color: blue;
+                  height: 40px
+       	       }
+
+	    - .名称
+		.c1{
+            	    background-color: blue;
+                    height: 40px
+        	}
+		<标签 class="名称"> </标签>
+	    
+            -标签选择器
+		div{
+		    background-color: blue;
+                    color:white;
+		}
+		所有div标签内容都被赋予背景和字体颜色
+
+	    -层级选择器（用空格分开）
+		.c1 .c2 div{
+
+			}
+	
+	    -组合选择器（用都好分开）
+		#i1,#i1,div{
+
+			}
+	    -属性选择器
+		对选择到的标签再通过属性再进行一次筛选
+		.c1[n="hsj"]{width:500px;height:250px;}
+            	
+	    PS:标签上的style优先，编写顺序，就近原则
+	
+	3）css样式可以写在单独文件中
+	    <link rel="stylesheet" href="文件名称.css"/>	
+
+
+
+	4）注释
+	    /*   */
+	
+	5)边框
+	    style="border:6px dotted red;" 边框，样式，颜色
+
+	6）
+            height           高度 百分比
+            width            宽度 像素，百分比
+            text-align:ceter  水平方向居中
+            line-height      垂直方向根据标签高度
+            color            字体颜色
+            font-size        字体大小
+            font-weight      字体加粗
+
+	7）float
+            让标签飘起来，块级标签也可以堆叠
+                <div style="clear: both;"></div>
+
+	8）display
+            display: none; -- 让标签消失
+            display: inline;
+            display: block;
+            display: inline-block;
+              具有inline,默认自己有多少占多少
+              具有block，可以设置高度，宽度，padding，margin
+
+            行内标签：无法设置高度，宽度，padding  margin
+            块级标签：可以设置高度，宽度，padding  margin
+
+	9）padding  margin
+	    内边距：margin:0 auto   当前div居中
+	    外边距：padding
+
+	10）
+    	    opcity: 0.5 透明度
+    	    z-index: 层级顺序   
+    	    overflow: hidden：隐藏超出范围的图片,auto：超出范围出现滚动条
+

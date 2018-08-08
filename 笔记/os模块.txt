@@ -1,0 +1,21 @@
+os.getcwd()：查看当前所在路径。
+
+os.listdir(path):列举目录下的所有文件，返回的是列表类型。
+
+os.path.abspath(path):返回path的绝对路径。
+
+os.path.join(path1,path2,...):将path进行组合，若其中有绝对路径，则之前的path将被删除。
+
+os.path.dirname(path):返回path中的文件夹部分，结果不包含'\'
+
+os.path.basename(path):返回path中的文件名。
+
+os.path.getmtime(path):文件或文件夹的最后修改时间，从新纪元到访问时的秒数。
+
+os.path.getatime(path):文件或文件夹的最后访问时间，从新纪元到访问时的秒数。
+
+os.path.getctime(path):文件或文件夹的创建时间，从新纪元到访问时的秒数。
+
+os.path.getsize(path):文件或文件夹的大小，若是文件夹返回0
+
+os.path.exists(path):文件或文件夹是否存在，返回True 或 False。

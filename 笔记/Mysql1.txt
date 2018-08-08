@@ -1,0 +1,72 @@
+1.数据库（Database）是按照数据结构来组织、存储和管理数据的仓库
+
+2.RDBMS即关系数据库管理系统(Relational Database Management System)的特点：
+1）.数据以表格的形式出现
+2）.每行为各种记录名称
+3）.每列为记录名称所对应的数据域
+4）.许多的行和列组成一张表单
+5）.若干的表单组成database
+
+
+3.RDBMS 术语 
+数据库: 数据库是一些关联表的集合。
+
+数据表: 表是数据的矩阵。在一个数据库中的表看起来像一个简单的电子表格。
+
+列: 一列(数据元素) 包含了相同的数据, 例如邮政编码的数据。
+
+行：一行（=元组，或记录）是一组相关的数据，例如一条用户订阅的数据。
+
+冗余：存储两倍数据，冗余可以使系统速度更快。(表的规范化程度越高，表与表之间的关系就越多；查询时可能经常需要在多个表之间进行连接查询；而进行连接操作会降低查询速度。例如，学生的信息存储在student表中，院系信息存储在department表中。通过student表中的dept_id字段与department表建立关联关系。如果要查询一个学生所在系的名称，必须从student表中查找学生所在院系的编号（dept_id），然后根据这个编号去department查找系的名称。如果经常需要进行这个操作时，连接查询会浪费很多的时间。因此可以在student表中增加一个冗余字段dept_name，该字段用来存储学生所在院系的名称。这样就不用每次都进行连接操作了。)
+
+主键：主键是唯一的。一个数据表中只能包含一个主键。你可以使用主键来查询数据。
+
+外键：外键用于关联两个表。
+
+复合键：复合键（组合键）将多个列作为一个索引键，一般用于复合索引。
+
+索引：使用索引可快速访问数据库表中的特定信息。索引是对数据库表中一列或多列的值进行排序的一种结构。类似于书籍的目录。
+
+参照完整性: 参照的完整性要求关系中不允许引用不存在的实体。与实体完整性是关系模型必须满足的完整性约束条件，目的是保证数据的一致性。
+
+
+4.mysql的使用
+1）show databases;   显示数据库
+2）use <数据库名>;   连接数据库
+3）show tables;      显示表
+4）desc <表名>;      查看表结构 ，也可以用show columns from <表名>;
+5）selsct * from <表名>;  查看表数据
+6）selsct * from <表名>\G  查看表数据(显示内容清晰)不用加 ;
+7）grant all on *.* to 'username'@'localhost' identified by 'passwd';   创建用户以及设置权限 all是赋予所有权限
+8）create database <数据库名>;  创建数据库
+9）create table student(
+	id int auto_increment,
+	name char(32) not null,
+	age int not null,
+	register_date date not null,
+	primary key(id));
+	创建一个简单的表
+10）show create database <数据库名>; 查看数据库的character
+11）create database <数据库名> charset utf8;  创建数据库并设置character为utf-8
+12）drop table <表名>; 删除表
+13）drop database <数据库名>; 删除数据库
+14）select * from <表名> limit 3 offset 2;  从第三个开始查询限制（limit）3个
+15）select * from <表名> where register_date like '2018-04%'; 查找register_date为2018-04的所有数据
+16）update <表名> set name='海上',age=34 where id=5; 修改id为5的name和age为'海上'、'34'
+17）delete from <表名> where id>4; 删除id>4的所有数据
+18）select * from <表名> order by id asc/desc;查询的表是id的升序(asc)/倒序(desc)
+19）select name ,count(*) as stu_num from <表名> group by name;选择name属性并统计整个表格(count(*)) 按name进行分组统计数量一列命名为stu_num
+20）select name ,sum(age) from student group by name;统计相同名字的年龄总和并按照name分组
+21）select coalesce(name,'总年龄') ,sum(age) from student group by name with rollup;统计相同名字的年龄总和并按照name分组,在最后一行显示所有总数，coalesce作用是命名
+22）alter table <表名> add sex int(11) not null; ＃添加phone字段并且不能为空
+23）alter table <表名> drop sex; #从student表删除sex字段
+24）alter table <表名> modify sex <字段类型> not null;
+修改字段sex不能为空，在修改前sex字段必须不能是空的
+25）alter table student change sex gender char(32) not null default 'X'; 更改字段sex为gender，数据类型为char（32），且不能为空，默认数值为'X'
+26）drop user 'abc'@'localhost';   删除用户abc
+
+
+
+命令大全
+http://www.jb51.net/article/74564.htm
+

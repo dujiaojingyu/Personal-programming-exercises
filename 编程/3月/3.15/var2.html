@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="search" type="text" onblur="f2()" onfocus="f1()"/>
+
+
+    <script>
+        var ele = document.getElementById('search');
+        function f1() {
+            if(ele.value=='请输入用户名'){
+               ele.value = ''
+            }
+
+        }
+        function f2() {
+            if(!ele.value.trim()){
+                ele.value = '请输入用户名'
+            }
+
+        }
+    </script>
+</body>
+</html>

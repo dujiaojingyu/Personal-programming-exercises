@@ -1,0 +1,6 @@
+1.RabbitMQ（消息队列）
+    py
+        1）threading Queue
+	2）进程Queue 父进程与子进程进行交互，或者同一父进程下的多个子进程进行交互
+
+

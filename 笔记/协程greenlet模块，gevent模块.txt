@@ -1,0 +1,71 @@
+1.协程（微线程）
+协程是一种用户态的轻量级线程。
+协程拥有自己的寄存器上下文和栈。协程调度切换时，将寄存器上下文和栈保存到其他地方，在切回来的时候，恢复先前保存的寄存器上下文和栈。因此：
+
+协程能保留上一次调用时的状态（即所有局部状态的一个特定组合），每次过程重入时，就相当于进入上一次调用的状态，换种说法：进入上一次离开时所处逻辑流的位置。
+
+2.greenlet
+greenlet是一个用C实现的协程模块，相比与python自带的yield，它可以使你在任意函数之间随意切换，而不需把这个函数先声明为generator
+
+例子
+from greenlet import greenlet
+
+def fun1():
+    print(6)
+    gar2.switch()    #转换到gar2
+    print(58)
+
+def fun2():
+    print(54)
+    gar1.switch()
+
+
+gar1 = greenlet(fun1)       #启动协程
+gar2 = greenlet(fun2)
+gar1.switch()
+
+
+3.gevent
+Gevent 是一个第三方库，可以轻松通过gevent实现并发同步或异步编程，在gevent中用到的主要模式是Greenlet, 它是以C扩展模块形式接入Python的轻量级协程。 Greenlet全部运行在主程序操作系统进程的内部，但它们被协作式地调度。
+
+import gevent
+
+def fun1():
+    print('第一次运行fun1')
+    gevent.sleep(2)
+    print('第二次运行fun1')
+def fun2():
+    print('第一次运行fun2')
+    gevent.sleep(1)
+    print('第二次运行fun2')
+def fun3():
+    print('第一次运行fun3')
+    gevent.sleep(2)
+    print('第二次运行fun3')
+gevent.joinall( [
+    gevent.spawn(fun1),
+    gevent.spawn(fun2),
+    gevent.spawn(fun3)
+])
+
+4.gevent.sleep()默认检测不了urllib的io操作
+
+5.要异步操作爬虫，必须加上monkey.patch_all(),意思是把当前程序的所有的io操作单独做上标记
+
+如
+from urllib import request
+import gevent,time
+from gevent import monkey
+monkey.patch_all()  #把当前程序的所有的io操作单独做上标记
+def f(url):
+    print('GET%s'%url)
+    resp = request.urlopen(url)
+    data = resp.read()
+    print('%d 数据接收来自%s.' % (len(data), url))
+start_time = time.time()
+gevent.joinall([
+        gevent.spawn(f, 'https://www.python.org/'),
+        gevent.spawn(f, 'https://www.baidu.com/'),
+        gevent.spawn(f, 'https://github.com/'),
+])
+print('总共时间:',time.time()-start_time)

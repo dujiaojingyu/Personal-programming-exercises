@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+    <input id="i" type="button" value="切换">
+    <div id="div1" style="width:80px;height:80px;background-color:green;"></div>
+    <div id="div2" style="width:80px;height:80px;background-color:red;"></div>
+    <div id="div3" style="width:80px;height:80px;background-color:blue;"></div>
+
+    <script>
+        $(document).ready(function () {
+            $("#i").click(function () {
+                $("#div1").fadeToggle();
+                $("#div2").fadeToggle("slow");
+                $("#div3").fadeToggle(3000);
+            });
+        });
+    </script>
+</body>
+</html>

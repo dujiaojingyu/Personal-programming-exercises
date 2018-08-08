@@ -1,0 +1,80 @@
+1.元组：
+元组其实跟列表差不多，也是存一组数，只是它一旦创建，便不能在修改，所以又叫只读列表
+语法：names =('shgd','sjdh') 
+它只有两个方法，一个是count，一个是index
+2.字符串操作:
+大全：https://www.cnblogs.com/huangcong/archive/2011/08/29/2158268.html
+
+s.capitalize()	#字符串s首写字母大写  
+s.lower() 	#全部变成小写  
+s.upper() 	#全部变成大写  
+s.swapcase() 	#大小写互换  
+len(s) 		#得到字符串的大小 
+
+s.find(substring,[start[,end]])  找到，返回索引值，找不到，返还－1  
+
+s.rfind(substring,[start[,end]]) 反向查找  
+
+s.index(substring,[start[,end]]) 与find()类似，如果找不到substring，就产生一个  
+ValueError的异常  
+
+s.rindex(substring,[start[,end]]) 反向查找  
+
+s.count(substring,[start[,end]]) 返回找到substring的次数 
+
+s.formate()   #传值进去如 s.formate(name='shd',year=20)具体用法自行查询。
+
+s.ljust(width) 左对齐，如果width比len(s)大，则后面补空格。否则返回s。  
+
+s.rjust(width) 右对齐   
+s.center(width) 居中  
+s.lstrip() 去掉左边的空白字符  
+s.rstrip() 去掉右边的空白字符   
+s.strip() 去掉两边的空白字符 
+
+s.split(words)	words是一个字符串，表示分隔符。split的操作和join相反。将s分解为一个list。
+
+s.endswith() #判断字符串以什么结尾。
+
+s.expandtabs(tabsize=30) #将\t符号转换为30个空格。
+
+s.isalnum()    #判断是否是英文或数字 包含所有的英文字符加上0到9
+
+s.decimal()   #判断是否是十进制
+s.digit() #判断是否是数字
+
+s.isdentifier()    #判断是否是一个合法的标识符。说白了是否是合法的变量名。
+
+s.numeric()    #判断是否是数字具体用法自行搜索
+
+s.istitle()   #判断是否是标题，即单词是否首字母为大写。
+
+''.join(['1','2','3'])   #得到结果为123
+
+maketrans和translate一起用如：
+p = str.maketrans('abcdef','123456') #将‘abcdef’用‘123456’代替。
+print('husngshijie'.translate(p))
+
+s.replace（）     #代替
+
+s.swapcase()    #大写变小写，小写变大写。
+
+s.zfill()       #左边补0，个数决定于括号里面的参数。
+
+
+3.字典
+字典是无序的可通过key找到相对应的value
+具体用法自查。http://blog.csdn.net/u010480899/article/details/52737739
+
+字典可以多层嵌套
+
+dict.values()   #打印所有的值value
+dict.keys()     #打印所有的键key
+
+dict.setdefault()  #类似于get方法，获取与给定键相关联的值，也可以在字典中不包含给定键的情况下设定相应的键值
+
+dict.update()    #用一个字典更新另外一个字典
+
+dict.items()      #items将所有的字典项以列表方式返回，列表中项来自（键，值），iteritems与items作用相似，但是返回的是一个迭代器对象而不是列表
+
+dict.fromkeys()    #使用给定的键建立新的字典，键默认对应的值为None

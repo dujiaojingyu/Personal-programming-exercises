@@ -1,0 +1,183 @@
+1.HTML
+   1）一套规则，浏览器认识的规则
+
+   2）开发者:
+
+      	学习html规则
+
+        开发后台程序:
+
+            -写html文件(充当模版使用)
+            -数据库获取数据，然后替换到html文件的指定位置（Web框架）
+
+   3）本地测试
+
+       -找到文件路径，直接浏览器打开
+
+       -pycharm打开测试
+
+   4）编写HTML文件
+
+       -doctype 对应关系
+
+       -html标签，标签内可以写属性，只能有一个html标签
+
+       -head标签 ，只能一个
+
+       -body标签，只能一个
+
+       -注释<!-- 内容 -->
+
+   5）标签分类
+
+       -自闭合标签
+ 	   <meta charset="utf-8" />
+	   <br/>
+
+       -主动闭合标签
+	   <title>内容</title>
+
+   6)head标签
+
+       -<meta 内容> ---->可以跳转，刷新，关键字，描述，IE兼容	
+	    <meta http-equiv="X-UA-Compatible" content="IE=IE9;IE=IE8" />关于IE兼容的写法
+
+       -title标签
+
+       -link标签，图标
+
+       -style标签
+
+       -script标签
+
+   7）body标签（重点必须记住）
+
+       -符号，&nbsp;空格 &gt;>  &lt;<    各种符号：http://www.cnblogs.com/web-d/archive/2010/04/16/1713298.html
+
+       -p标签，段落
+
+       -br标签（自闭标签），换行
+
+       -a标签  
+	   < a href="http://www.baidu.com" target="_blac"k>百度</a>  
+	   超链接  target属性，_black表示在新的页面打开
+
+	   <a href="#1">第一章</a>
+    	   <a href="#2">第二章</a>
+    	   <div id="1" style="height: 600px">第一章内容</div>
+    	   <div id="2" style="height: 600px">第二章内容</div>
+	   作为锚跳转，href="#某个内容的id"  id不允许重复
+	
+
+       -小结
+
+	  所有标签分为：
+ 	     块级标签：div（白板），H系列标签（加大加粗），p标签（段落和段落之间有间距）
+	     行内标签：span (白板没有属性)
+			
+          标签之间可以嵌套
+
+	  标签存在的意义，可以被css操作，js操作
+
+	  chorme审查元素的使用：1定位  2查看样式
+
+       -form标签
+	  <form action="http://localhost:8887/index" method="get" >
+		<input/>
+	  <form/>
+	  action 属性规定当提交表单时，向何处发送表单数据，method为提交方式
+
+       
+       -input系列
+	  <input type="text" name="user" value="hsj"/> 
+	  user输入框  value内容为输入框默认值
+
+          <input type="password" name="passwd"/> 
+	  passwd输入框
+
+          <input type="submit" value="登录"/>	
+	  提交按钮，表单
+
+ 	  <input type="radio" name="gender" value="1" checked="checked"/>  
+	  radio单选项  name属性（相同则互斥）checked="checked"默认被选中
+
+	  <input type="checkbox" name="favor" value="2" checked="checked"/> 
+	  checkbox多选项  name属性（批量获取数据） checked="checked"默认被选中
+
+	  <input type="file" name="fname"/>  
+	  选择上传文件但是要依赖form里的一个属性 enctype="multipart/form-data"
+
+	  <input type="reset" value="重置"/> 
+	  重置所选的选项，恢复默认值
+
+	  <input/>要包含在<form><from/>里
+	  如:  <form> <input/> <from/>
+	
+       -textarea标签
+	  <textarea name="mes">默认值</textarea>   
+	  存在name属性，且默认值写在中间 
+	
+       -select标签
+	  <select name="ctiy" multiple="multiple">
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">广东</option>
+                <option value="4">湖南</option>
+           </select>
+	   内部属性有name，size（大小），multiple="multiple"（多选），
+	   写在select属性内，option标签属性有value，提交后台
+
+       -img标签
+	   <a href="http://www.baidu.com">
+           	<img title="百度" src="4.gif" alt="百度"/>
+           </a>
+	   包在a标签里面作为跳转，title为鼠标放上去显示的内容，scr为图片地址，alt为图片不存在时显示的内容
+
+       -列表
+	   <ul>
+           	<li></li>
+    	   </ul>
+		
+	   <ol>
+           	<li></li>
+           </ol>
+   	 	
+	   <dl>
+           	<dt></dt>
+        	<dd></dd>
+    	   </dl>
+
+
+       -table标签（表格）
+    	        <table border="1">
+        	    <thead>
+            		<tr>
+                	    <th>表头1</th>
+                	    <th>表头2</th>
+                	    <th>表头3</th>
+                	    <th>表头4</th>
+            		</tr>
+        	    </thead>
+        	    <tbody>
+            		<tr>
+                	    <td>1</td>
+                	    <td rowspan="2">2</td>
+                	    <td colspan="2">3</td>
+                	    <td>4</td>
+            		</tr>
+        	    </tbody>
+   	        </table>
+	   thead表示表头，tbody表示表格主体
+	   border="1"表示表格显示，tr表示行，td表示列 ，rowspan表示横向占格,colspan表示纵向占格
+
+       -label标签
+          <label for="username">用户名</label>
+          <input id="username" type="text" name="user"/>
+	  这两个结合着用，用于点击文件，使得关联的标签获取光标
+
+
+
+
+
+
+

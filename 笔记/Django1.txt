@@ -1,0 +1,58 @@
+1.WEB框架
+
+	MVC
+
+	Model       View       Controller
+
+	数据库    模板文件      业务处理
+	
+------------------------------------------	
+	MTV
+
+	Model    Template     View
+
+	数据库   模板文件    业务处理
+	
+
+2.Django
+
+最好用pip安装，因为涉及到环境变量问题。
+pip3 install django
+装好之后python路径中C:\Python\Python36\Scripts（python安装路径），在Scripts文件夹中有一个django-admin.exe程序，将路径C:\Python\Python36\Scripts添加到环境变量中（注：添加前要注意路径前面有没有英文分号，没有要加上）就可以在电脑的任何地方创建django程序并运行它，否则是运行不了的。
+	
+	
+# 创建Django工程
+django-admin startproject <工程文件名>
+	
+	MyfirstDjango
+		- MyfirstDjango         # 对整个程序进行配置
+			- init
+			- settings      # 配置文件
+			- url           # URL对应关系
+			- wsgi          # 遵循WSIG规范，uwsgi + nginx
+			- manage.py     # 管理Django程序：
+						- python manage.py                运行文件
+						- python manage.py startapp xx  创建app
+						- python manage.py makemigrations   生成数据库
+						- python manage.py migrate	    管理数据库
+
+	# 运行Django功能
+	python manage.py runserver 如果端口被占用加上它即可 127.0.0.1:8001
+
+
+3.配置
+
+    1）模版的路径配置
+
+	找到settings文件打开并找到TEMPLATES，里面含有'DIRS': [os.path.join(BASE_DIR, 'templates')],字段说明已经配置好了
+	如果没有则加上即可，这样所有的html模版都放在这个目录下就可以运行了
+
+    2）配置静态目录
+	使用静态文件（css、js等文件）必须存放在文件夹里，文件夹名字最好叫static，然后在settings配置文件中最后加上以下代码即可使	用
+
+	STATICFILES_DIRS = (
+		os.path.join(BASE_DIR, 'static'),
+		)
+	引用则是要在html文件，在head标签里加上<link rel="stylesheet" href="/static/commons.css" />
+
+	

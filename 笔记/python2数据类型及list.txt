@@ -1,0 +1,53 @@
+1.数据类型：整型(int)、浮点型(float)、复数(complex)、字符串、布尔值
+
+2.数据运算：
+
+3.三元运算：
+result = 值1 if 条件 else 值2
+如果条件为真：result = 值1
+如果条件为假；result = 值2
+
+4.Python 3中bytes/string的区别：
+https://www.cnblogs.com/abclife/p/7445222.html
+
+5.Python3中byte和string之间各种编码转换：
+http://blog.csdn.net/htdeyanlei/article/details/50866307
+
+6.decode解码 encode编码
+
+7.列表（list）
+
+list.append(x) 
+在列表的尾部添加一个项，等价于 a[len(a):] = [x]。
+
+list.extend(L) 
+将给定的列表L接到当前列表后面，等价于 a[len(a):] = L。
+
+list.insert(i, x) 
+在给定的位置 i 前插入项，例如：a.insert(0, x) 会在列表的头部插入，而 a.insert(len(a), x) 则等价于 a.append(x)。
+
+list.remove(x) 
+移除列表中第一个值为 x 的项，没有的话会产生一个错误。
+
+list.pop([i]) 
+删除列表给定位置的项，并返回它。如果没指定索引，a.pop()移除并返回列表最后一项。（方括号表示可选）
+
+list.clear()
+删除列表中的所有项，相当于 del a[:]。
+
+list.index(x)
+返回列表中第一个值为 x 的项的索引。如果没有匹配的项, 则产生一个错误。
+
+list.count(x)
+返回列表中 x 出现的次数。
+
+list.sort()
+就地完成列表排序。
+
+list.reverse()
+就地完成列表项的翻转。
+
+list.copy()
+返回列表的一个浅拷贝，相当于a[:]，只copy一层。深copy，引入模块copy，然后写copy.deepcopy（list）即可完全copy。
+
+注：tuple、dict等都有它们自己的方法，可以使用dir()和help()查询。

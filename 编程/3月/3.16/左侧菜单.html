@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .outer{
+            height: 1000px;
+            width: 100%;
+        }
+        .menu{
+            height: 500px;
+            width: 25%;
+            float: left;
+            background-color: brown;
+        }
+        .content{
+            float: left;
+            height: 500px;
+            width: 75%;
+            background-color: darkviolet;
+        }
+        .con{
+            background-color: darkgray;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body style="margin: 0">
+    <div class="outer">
+        <div class="menu">
+            <div class="item">
+                <div class="title" onclick="show(this)">菜单一</div>
+                <div class="con">
+                    <div>111</div>
+                    <div>111</div>
+                    <div>111</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="title" onclick="show(this)">菜单二</div>
+                <div class="con hide">
+                    <div>222</div>
+                    <div>222</div>
+                    <div>222</div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="title" onclick="show(this)">菜单三</div>
+                <div class="con hide">
+                    <div>333</div>
+                    <div>333</div>
+                    <div>333</div>
+                </div>
+            </div>
+        </div>
+        <div class="content"></div>
+    </div>
+
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        function show(self) {
+            // console.log(self)
+            $(self).next().removeClass("hide");
+            $(self).parent().siblings().children(".con").addClass("hide");
+        }
+
+    </script>
+</body>
+</html>

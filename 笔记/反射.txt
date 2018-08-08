@@ -1,0 +1,10 @@
+1.反射
+通过字符串映射或修改程序运行时的状态、属性、方法
+
+getattr(obj,name_str)：根据字符串name_str去获取obj对象里的对应的方法的内存地址
+
+hasttr(obj,name_str)：判断一个对象obj里是否有对应的字符串的方法
+
+setattr(obj,'y',z):setattr 函数对应函数 getatt()，用于设置属性值，该属性必须存在。
+
+delattr(obj,'y'):从给定的对象中删除命名的属性

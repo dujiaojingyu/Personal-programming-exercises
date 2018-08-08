@@ -1,0 +1,43 @@
+      #top{
+            background-color: #f0f3ef;
+            height: 35px;
+            line-height: 35px;
+        }
+        #top a{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 6px;
+        }
+        #top_left{
+            padding-left: 50px;
+            float: left;
+        }
+        #top_right{
+            float: right;
+            padding-right: 50px
+        }
+        #neck{
+            height: 100px;
+            margin: 0 auto;
+        }
+
+      #neck #t1{
+          float:left;
+          margin-left: 300px;
+          line-height: 100px;
+          font-size: 38px
+        }
+      #neck #t2{
+          float:left;
+          margin-left: 200px;
+          line-height: 100px;
+      }
+      #neck #t3{
+          float: left;
+          margin-left: 50px;
+          margin-top:35px;
+          width: 180px;
+          height: 28px;
+          background-color: #f0f3ef;
+          border:1px solid #dddddd;
+      }

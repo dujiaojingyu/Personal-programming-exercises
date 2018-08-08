@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <select id="province">
+        <option>请选择省份</option>
+    </select>
+    <select id="citys">
+        <option>请选择城市</option>
+    </select>
+
+
+    <script>
+        data = {"河北":["石家庄","廊坊"],"北京":["中关村","一环"],"广东":["广州","深圳"]};
+        var ele_proveince = document.getElementById('province');
+        var ele_citys = document.getElementById('citys');
+        // console.log(ele_proveince);
+        // console.log(ele_citys);
+
+        //循环data取得keys
+        for (var i in data){
+            var ele_op = document.createElement('option');   //创建option标签
+            ele_op.innerHTML = i;                      //加内容
+            ele_proveince.appendChild(ele_op)          //添加到路径ele_proveince中去
+        }
+        ele_proveince.onchange = function () {
+            // console.log(this.selectedIndex);                   //可以获取选择的城市的序号
+            // console.log(this.options[this.selectedIndex]);           //options可以获取option标签
+            var city =data[this.options[this.selectedIndex].innerHTML];
+            ele_citys.options.length = 1;           //让ele_citys的option内容清空留下一个'请选择城市'
+            for (var i in city){
+
+                var ele_city = document.createElement('option');
+                ele_city.innerHTML = city[i];
+                ele_citys.appendChild(ele_city)
+
+            }
+        }
+
+
+
+
+    </script>
+</body>
+</html>

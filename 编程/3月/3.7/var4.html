@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    .box{
+        position:relative;
+        border:1px solid red;
+    }
+    .box::before{
+        content:attr(title);
+        position:absolute;
+        left:50%;
+        transform:translateX(-50%);
+        -webkit-transform:translate(-50%,-50%);
+        padding:0 10px;
+        background-color:#fff;
+    }
+</style>
+</head>
+<body>
+    <div class="box" title="使用方法">
+    <ol>
+        <li>这是啥</li>
+        <li>干啥</li>
+    </ol>
+    </div>
+</body>
+</html>

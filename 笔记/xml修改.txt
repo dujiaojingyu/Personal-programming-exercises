@@ -1,0 +1,5 @@
+1.官网教程：
+https://docs.python.org/3.5/library/xml.etree.elementtree.html 
+
+详细教程
+http://www.cnblogs.com/alex3714/articles/5161349.html

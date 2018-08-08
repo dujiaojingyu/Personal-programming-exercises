@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+    <style>
+        .flip{
+            text-align: center;
+            background-color: #e5eecc;
+            margin: 0;
+            padding: 5px;
+            border: solid 1px #c3c3c3;
+
+        }
+        .panle{
+            text-align: center;
+            background-color: #e5eecc;
+            margin: 0;
+            padding: 5px;
+            border: solid 1px #c3c3c3;
+            height:120px;
+            display:none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flip">请点击这里</div>
+    <div class="panle">
+        <p>W3School - 领先的 Web 技术教程站点</p>
+        <p>在 W3School，你可以找到你所需要的所有网站建设教程。</p>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".flip").click(function () {
+                $(".panle").slideDown('slow');
+            });
+        });
+
+
+    </script>
+</body>
+</html>

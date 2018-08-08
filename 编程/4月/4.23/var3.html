@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-area标签总是被包含在map标签中使用，img标签中的usemap属性可引用map标签
+    中的id或name属性（由浏览器决定），所以我们需要同时向map添加 id 和 name 两个属性-->
+    <img src="eg_planets.jpg" alt="Planets" border="o" usemap="#planetmap">
+    <map id="planetmap" name="planetmap">
+        <area shape="circle" coords="180,139,14" href="venus.html" alt="venus"/>
+        <area shape="circle" coords="129,161,10" href="mercur.html" alt="mercur"/>
+        <area shape="rect" coords="0,0,110,260" href="sun.html" alt="sun"/>
+    </map>
+
+</body>
+</html>

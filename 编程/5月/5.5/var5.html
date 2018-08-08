@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div style="height: 100px;width: 200px;background-color: darkgreen;position: absolute">HELLO</div>
+    <script>
+        $(document).ready(function () {
+            var div = $("div");
+            div.animate({left:"250px"},"slow");
+            div.animate({fontSize:"3em"});
+        });
+    </script>
+</body>
+</html>

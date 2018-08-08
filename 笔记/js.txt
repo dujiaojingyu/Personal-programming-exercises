@@ -1,0 +1,418 @@
+js
+1.格式
+
+	<script>
+		<alert(123)   /*弹出框*/
+	</script>
+
+2.引入方式
+    1）写在html文档的body标签下
+    2）写在js文档
+	引入则是在body标签下加上<script src='text.js'></script>
+
+
+3.数据类型转换
+	JavaScript属于松散类型的程序语言
+	变量在声明的时候并不需要指定数据类型
+	变量只有在赋值的时候才会确定数据类型
+	表达式中包含不同类型数据则在计算过程中会强制进行类别转换
+
+	数字 + 字符串：数字转换为字符串
+	数字 + 布尔值：true转换为1，false转换为0
+	字符串 + 布尔值：布尔值转换为字符串true或false
+
+
+4.类型查询函数（typeof）
+	ECMAScript 提供了 typeof 运算符来判断一个值是否在某种类型的范围内。可以用这种运算符判断一个值是否表示一种原始类型：如果它是原始类型，还可以判断它表示哪种原始类型。
+
+5.强制类型转换函数
+	函数parseInt：   强制转换成整数   例如parseInt("6.12")=6  ; parseInt(“12a")=12 ; parseInt(“a12")=NaN  ;parseInt(“1a2")=1
+
+	函数parseFloat： 强制转换成浮点数  parseFloat("6.12")=6.12
+
+	函数eval：       将字符串强制转换为表达式并返回结果 eval("1+1")=2 ; eval("1<2")=true
+
+
+6.运算符
+	加(＋)、 减(－)、 乘(*) 、除(/) 、余数(% )  加、减、乘、除、余数和数学中的运算方法一样  例如：9/2=4.5，4*5=20，9%2=1
+	
+	-除了可以表示减号还可以表示负号  例如：x=-y
+	+除了可以表示加法运算还可以用于字符串的连接  例如："abc"+"def"="abcdef"
+	
+	假如x=2，那么x++表达式执行后的值为3，x--表达式执行后的值为1
+	i++相当于i=i+1，i--相当于i=i-1
+	递增和递减运算符可以放在变量前也可以放在变量后：--i
+
+
+7.逻辑运算符
+	逻辑 AND 运算符(&&)
+	逻辑 AND 运算的运算数可以是任何类型的，不止是 Boolean 值。
+
+	如果某个运算数不是原始的 Boolean 型值，逻辑 AND 运算并不一定返回 Boolean 值：
+
+		如果某个运算数是 null，返回 null。 
+		如果某个运算数是 NaN，返回 NaN。 
+		如果某个运算数是 undefined，返回undefined。 
+	
+	逻辑 OR 运算符(||)
+	与逻辑 AND 运算符相似，如果某个运算数不是 Boolean 值，逻辑 OR 运算并不一定返回 Boolean 值
+
+
+8.if控制语句
+	if-else基本格式
+	if (表达式){
+	语句１;
+	......
+	}else{
+	语句２;
+	.....
+	}
+	功能说明
+	如果表达式的值为true则执行语句1,
+	否则执行语句2
+
+9.switch选择控制语句
+
+	switch基本格式
+	switch (表达式) {
+		case 值1:语句1;break;
+		case 值2:语句2;break;
+		case 值3:语句3;break;
+		default:语句4;
+	}
+
+
+10.for循环
+
+	for循环基本格式
+	for (初始化;条件;增量){
+		语句1;
+		...
+	}
+	功能说明
+	实现条件循环，当条件成立时，执行语句1，否则跳出循环体
+	
+
+11.while循环控制语句
+
+	while循环基本格式
+	while (条件){
+	语句1；
+	...
+	}
+	功能说明
+	运行功能和for类似，当条件成立循环执行语句花括号{}内的语句，否则跳出循环
+
+
+12.异常处理
+
+	try {
+		//这段代码从上往下运行，其中任何一个语句抛出异常该代码块就结束运行
+	}
+	catch (e) {
+		// 如果try代码块中抛出了异常，catch代码块中的代码就会被执行。
+		//e是一个局部变量，用来指向Error对象或者其他抛出的对象
+	}
+	finally {
+		 //无论try中代码是否有异常抛出（甚至是try代码块中有return语句），finally代码块中始终会被执行。
+	}
+
+	主动抛出异常 throw Error('xxxx')
+
+
+13.ECMA对象
+	从传统意义上来说，ECMAScript并不真正具有类。事实上，除了说明不存在类，在 ECMA-262 中根本没有出现“类”这个词。ECMAScript 定义了“对象定义”，逻辑上等价于其他程序设计语言中的类。
+
+
+14.内置对象（11种）
+
+Array ,String , Date, Math, Boolean, Number  Function, Global, Error, RegExp , Object
+
+
+1）String对象
+    编排方法
+	String对象提供了一组针对HTML格式的方法，如x.anchor()返回锚定义字符串
+	<a>x</a>，x.bold()返回粗体表示字符串<b>x</b>，x.sup()返回上标格式字符串
+	<sup>x</sup>。
+	
+    大小写转换
+	var str2=str1.toLowerCase();
+	var str3=str1.toUpperCase();
+	
+    获取指定字符
+	x.charAt(index)
+	x.charCodeAt(index)
+	
+    查询字符串
+	x.indexOf(findstr,index)
+	x.lastIndexOf(findstr)
+	
+    子字符串处理
+	截取
+	    x.substr(start, length)
+	    x.substring(start, end)
+	    x.slice(start, end)
+    代替字符串
+   	    var str2=str1.replace("cd","aaa");
+	分割字符串
+	    var strArray=str1.split(",");
+	连接字符串
+	    y=x.concat(addstr)
+		
+2）Array对象
+	创建数组对象
+		Array 对象用于在单个的变量中存储多个值。
+		语法:
+
+		创建方式1:
+		var a=[1,2,3];
+
+		创建方式2:
+		new Array();     //  创建数组时允许指定元素个数也可以不指定元素个数。
+		new Array(size);//if 1个参数且为数字,即代表size,不是内容
+			初始化数组对象:
+			var cnweek=new Array(7);
+				cnweek[0]="星期日";
+				cnweek[1]="星期一";
+				...
+				cnweek[6]="星期六";
+
+		new Array(element0, element1, ..., elementn)  //也可以直接在建立对象时初始化数组元素，元素类型允许不同
+		var test=new Array(100,"a",true);
+		
+		
+	方法
+		连接数组-join方法
+			x.join(bystr)  //bystr作为连接数组中元素的字符串
+			x代表数组对象
+			返回连接后的字符串
+			与字符串的split功能刚好相反
+		
+		连接数组-concat方法
+			x.concat(value,...)
+
+			var a = [1,2,3];
+			var a = new Array(1,2,3);
+			var b=a.concat(4,5) ;
+
+			alert(a.toString());
+			//返回结果为1,2,3
+			alert(b.toString());
+			//返回结果为1,2,3,4,5
+			
+			//ToString() :  返回对象的原始字符串表示。
+			//ValueOf()  : 返回最适合该对象的原始值。对于许多对象，该方法返回的值都与 ToString() 的返回值相同。
+			
+		数组排序-reverse sort
+			x.reverse()   //颠倒数组元素
+			x.sort()      //排序数组元素
+			
+		数组切片-slice
+			x.slice(start, end)
+			//x代表数组对象
+			//start表示开始位置索引
+			//end是结束位置下一数组元素索引编号
+			//第一个数组元素索引为0
+			//start、end可为负数，-1代表最后一个数组元素
+			//end省略则相当于从start位置截取以后所有数组元素
+			
+		删除子数组
+			x. splice(start, deleteCount, value, ...)
+			//splice的主要用途是对数组指定位置进行删除和插入
+			//start表示开始位置索引
+			//deleteCount删除数组元素的个数
+			//value表示在删除位置插入的数组元素value参数可以省略
+			
+		数组的进出栈操作1
+			push pop这两个方法模拟的是一个栈操作
+			
+			x.push(value, ...)  压栈
+			x.pop()             弹栈      
+
+			//x代表数组对象
+			//value可以为字符串、数字、数组等任何值
+			//push是将value值添加到数组x的结尾
+			//pop是将数组x的最后一个元素删除
+			
+		数组的进出栈操作2	
+			unshift shift 
+			x.unshift(value,...)   //往前插
+			x.shift()			   //前面弹出
+
+			//x代表数组对象
+			//value可以为字符串、数字、数组等任何值
+			//unshift是将value值插入到数组x的开始
+			//shift是将数组x的第一个元素删除
+
+3）Function对象(重点)
+	格式
+		function 函数名 (参数){函数体;
+			return 返回值;
+		}
+		
+	创建
+		function 函数名 (参数){
+			    函数体;
+		return 返回值;
+		}
+		
+	Function 对象的方法
+
+		Function对象也有与所有对象共享的 valueOf() 方法和 toString() 方法。
+		这两个方法返回的都是函数的源代码，在调试时尤其有用。
+		
+	函数的内置对象arguments
+		在js中 不需要明确指出参数名，就能访问它们，例如：
+
+		function test() {
+				var s = "";
+				for (var i = 0; i < arguments.length; i++) {
+					alert(arguments[i]);
+					s += arguments[i] + ",";
+				}
+				return s;
+			}
+			test("name", "age")
+
+		//输出结果：
+
+		name,age
+
+ 
+	
+15.作用域
+	js的作用域和py相似，ifwhile等控制语句并没有自己作用域；而函数是有自己的作用域的.
+	
+	
+16.BOW对象
+	BOM（浏览器对象模型），可以对浏览器窗口进行访问和操作。
+	
+	使用 BOM，开发者可以移动窗口、改变状态栏中的文本以及执行其他与页面内容不直接相关的动作。
+	使 JavaScript 有能力与浏览器“对话”。
+
+	window对象
+		所有浏览器都支持 window 对象。
+		概念上讲.一个html文档对应一个window对象.
+		功能上讲: 控制浏览器窗口的.
+		使用上讲: window对象不需要创建对象,直接使用即可.
+		
+	wondow对象方法
+		alert()            显示带有一段消息和一个确认按钮的警告框。
+		confirm()          显示带有一段消息以及确认按钮和取消按钮的对话框。
+		prompt()           显示可提示用户输入的对话框。
+		open()             打开一个新的浏览器窗口或查找一个已命名的窗口。
+		close()            关闭浏览器窗口。
+		setInterval()      按照指定的周期（以毫秒计）来调用函数或计算表达式。无限次执行
+		clearInterval()    取消由 setInterval() 设置的 timeout。
+		setTimeout()       在指定的毫秒数后调用函数或计算表达式，只执行一次
+		clearTimeout()     取消由 setTimeout() 方法设置的 timeout。
+		scrollTo()         把内容滚动到指定的坐标。
+		
+	History 对象
+		History   对象包含用户（在浏览器窗口中）访问过的 URL。
+		History   对象是 window 对象的一部分，可通过 window.history 属性对其进行访问。
+	
+	History对象方法
+		back()       加载 history 列表中的前一个 URL。
+		forward()    加载 history 列表中的下一个 URL。
+		go()         加载 history 列表中的某个具体页面。
+	
+	Location 对象
+		Location 对象包含有关当前 URL 的信息。
+		Location 对象是 Window 对象的一个部分，可通过 window.location 属性来访问。
+
+	Location 对象方法
+		location.assign(URL)   //链接url，可以反回
+		location.reload()	   //刷新
+		location.replace(newURL)//注意与assign的区别，不可以返回
+			
+		
+		
+		
+17.DOM对象(DHTML)	
+	DOM 是 W3C（万维网联盟）的标准。DOM 定义了访问 HTML 和 XML 文档的标准：
+		"W3C 文档对象模型（DOM）是中立于平台和语言的接口，
+		它允许程序和脚本动态地访问和更新文档的内容、结构和样式。"
+		
+		W3C DOM 标准被分为 3 个不同的部分：
+			核心 DOM - 针对任何结构化文档的标准模型
+			XML DOM - 针对 XML 文档的标准模型
+			HTML DOM - 针对 HTML 文档的标准模型	
+			
+		
+	DOM节点
+		根据 W3C 的 HTML DOM 标准，HTML 文档中的所有内容都是节点(NODE)：
+			整个文档是一个文档节点(document对象)
+			每个 HTML 元素是元素节点(element 对象)
+			HTML 元素内的文本是文本节点(text对象)
+			每个 HTML 属性是属性节点(attribute对象)
+			注释是注释节点(comment对象)
+				
+		节点(自身)属性:
+		attributes - 节点（元素）的属性节点
+		nodeType – 节点类型
+		nodeValue – 节点值
+		nodeName – 节点名称
+		innerHTML - 节点（元素）的文本值
+		
+		导航属性:
+		parentElement              // 父节点标签元素
+		children                        // 所有子标签  
+		firstElementChild          // 第一个子标签元素
+		lastElementChild           // 最后一个子标签元素
+		nextElementtSibling       // 下一个兄弟标签元素
+		previousElementSibling  // 上一个兄弟标签元素
+		
+		
+		
+	访问HTML元素节点：
+		通过使用 getElementById() 方法 
+		通过使用 getElementsByTagName() 方法 
+		通过使用 getElementsByClassName() 方法 
+		通过使用 getElementsByName() 方法 
+		
+		
+	HTML DOM Event(事件)
+		onclick        当用户点击某个对象时调用的事件句柄。
+		ondblclick     当用户双击某个对象时调用的事件句柄。
+		onfocus        元素获得焦点。              作用：输入框
+		onblur         元素失去焦点。    		   作用：用于表单验证,用户离开某个输入框时,代表已经输入完了,我们可以对它进行验证.           
+		onchange       域的内容被改变。            作用：通常用于表单元素,当元素内容被改变时触发.（三级联动）
+		onkeydown      某个键盘按键被按下。        作用: 当用户在最后一个输入框按下回车按键时,表单提交.
+		onkeypress     某个键盘按键被按下并松开。
+		onkeyup        某个键盘按键被松开。
+		onload         一张页面或一幅图像完成加载。
+		onmousedown    鼠标按钮被按下。
+		onmousemove    鼠标被移动。
+		onmouseout     鼠标从某元素移开。
+		onmouseover    鼠标移到某元素之上。
+		onmouseleave   鼠标从元素离开
+		onselect       文本被选中。
+		onsubmit       确认按钮被点击。
+	
+	重要
+	可以在函数中加个参数this，作用是获取到当前标签
+	之后可以各种操作，如找它的兄弟标签
+	<p onclick=fun(that)>p标签</p>
+	
+	<script>
+		function fun(that){
+			console.log(that)		
+		}
+	</script>
+	
+	
+	onload：
+		onload 属性开发中 只给 body元素加.
+		这个属性的触发 标志着 页面内容被加载完成.
+		应用场景: 当有些事情我们希望页面加载完立刻执行,那么可以使用该事件属性.
+		
+	onsubmit:
+		是当表单在提交时触发. 该属性也只能给form元素使用.应用场景: 
+		在表单提交前验证用户输入是否正确.如果验证失败.在该方法中我们应该阻止表单的提交.
+		
+	
+	
+	
+	
+	

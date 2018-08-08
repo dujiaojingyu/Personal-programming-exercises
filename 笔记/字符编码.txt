@@ -1,0 +1,6 @@
+1.Uincode(万国编码) 默认所有字符占两个字节16位
+2.utf-8  所有中文编码占三个字节，英文字符占一个字节
+
+3.utf-8转成gbk
+必须先decode转成Unicode再encode成gbk
+详细教程：https://www.cnblogs.com/zhangqigao/p/6496172.html

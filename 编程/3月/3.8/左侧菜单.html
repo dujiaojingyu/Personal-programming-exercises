@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .hide{
+            display: none;
+        }
+        .iter .header{
+            height: 35px;
+            background-color: blue;
+            color: white;
+            line-height: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 48px;"></div>
+    <div style="width: 300px;">
+        <div class="iter">
+            <div id="i1" class="header" onclick="ChangeMenu('i1')">菜单1</div>
+            <div class="content hide">
+                <div>内容1</div>
+                <div>内容2</div>
+                <div>内容3</div>
+                <div>内容4</div>
+            </div>
+        </div>
+
+        <div class="iter">
+            <div id="i2" class="header " onclick="ChangeMenu('i2')">菜单2</div>
+            <div class="content hide">
+                <div>内容1</div>
+                <div>内容2</div>
+                <div>内容3</div>
+                <div>内容4</div>
+            </div>
+        </div>
+
+        <div class="iter">
+            <div id="i3" class="header" onclick="ChangeMenu('i3')">菜单3</div>
+            <div class="content hide">
+                <div>内容1</div>
+                <div>内容2</div>
+                <div>内容3</div>
+                <div>内容4</div>
+            </div>
+        </div>
+
+        <div class="iter">
+            <div id="i4" class="header" onclick="ChangeMenu('i4')">菜单4</div>
+            <div class="content hide">
+                <div>内容1</div>
+                <div>内容2</div>
+                <div>内容3</div>
+                <div>内容4</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function ChangeMenu(id) {
+            var current_header = document.getElementById(id);//获取id里的div
+
+            var iter_list = current_header.parentElement.parentElement.children;//获取全部iter的div
+            //循环列表iter_list并提取它们里面的孩子div
+            for (var i=0;i<iter_list.length;i++){
+                //获取到第i个iter的div
+                var current_iter = iter_list[i];
+                //提取第i个div的第一个孩子并获取类列表再加上hide
+                 current_iter.children[1].classList.add('hide');
+                 //提取id的div的下一个div并获取类列表再移除hide
+                current_header.nextElementSibling.classList.remove('hide');
+
+            }
+        }
+    </script>
+</body>
+</html>

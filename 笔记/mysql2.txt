@@ -1,0 +1,71 @@
+1.建立外键
+create table <表名>(  
+<字段> 字段类型 not null,
+<字段> 字段类型 not null, 
+<字段> 字段类型 not null, 
+foreign key(<字段>) references <主表名>(<字段>));
+
+2.Mysql 连接（left join, right join, inner join ,full join）
+1）inner join（内链接即获取两个表相同的字段数据）
+select * from <表1名> inner join <表2名> on <表1名>.<字段名> = <表2名>.<字段名>;  就是只显示2个表的交集
+
+2）left join（左连接即求差集的）
+select * from <表1名> left join <表2名> on <表1名>.<字段名> = <表2名>.<字段名>; 返回包括左表中的所有记录和右表中联结字段相等的记录 
+
+3）right join（右连接即求差集的）
+select * from <表1名> right join <表2名> on <表1名>.<字段名> = <表2名>.<字段名>; 返回包括右表中的所有记录和左表中联结字段相等的记录
+
+4）Full join（求并集）
+select * from <表1名> left join <表2名> on <表1名>.<字段名> = <表2名>.<字段名> union select * from <表1名> right join <表2名> on <表1名>.<字段名> = <表2名>.<字段名>;
+
+3.mysql事物
+MySQL 事务主要用于处理操作量大，复杂度高的数据。比如说，在人员管理系统中，你删除一个人员，你即需要删除人员的基本资料，也要删除和该人员相关的信息，如信箱，文章等等，这样，这些数据库操作语句就构成一个事务！
+
+在MySQL中只有使用了Innodb数据库引擎的数据库或表才支持事务
+事务处理可以用来维护数据库的完整性，保证成批的SQL语句要么全部执行，要么全部不执行
+事务用来管理insert,update,delete语句
+一般来说，事务是必须满足4个条件（ACID）： Atomicity（原子性）、Consistency（稳定性）、Isolation（隔离性）、Durability（可靠性）
+
+1）、事务的原子性：一组事务，要么成功；要么撤回。
+2）、稳定性 ： 有非法数据（外键约束之类），事务撤回。
+3）、隔离性：事务独立运行。一个事务处理后的结果，影响了其他事务，那么其他事务会撤回。事务的100%隔离，需要牺牲速度。
+4）、可靠性：软、硬件崩溃后，InnoDB数据表驱动会利用日志文件重构修改。可靠性和高速度不可兼得， innodb_flush_log_at_trx_commit选项 决定什么时候吧事务保存到日志里。
+
+begin； ＃开始一个事务
+
+insert into a (a) values(555);
+ 
+rollback; 回滚 ， 这样数据是不会写入的
+
+如果数据没问题，就输入commit;提交命令就行；
+
+4.mysql索引
+MySQL索引的建立对于MySQL的高效运行是很重要的，索引可以大大提高MySQL的检索速度。
+
+1）创建索引
+create index <索引名字> on <表名>( <字段名>(字段长度) );
+
+2）创建表的时候直接指定
+create table <表名>(
+ID int auto_increment,
+username char(32) not null,
+primary key(ID),
+index <索引名> (username(32)));
+
+3）删除索引
+drop index <索引名> on <表名>
+
+4）唯一索引
+创建索引
+create unique index <索引名字> on <表名>( <字段名>(字段长度) )
+创建表的时候直接指定
+创建表的时候直接指定
+create table <表名>(
+ID int not null,
+username char(32) not null,
+unique <索引名> (username(32)));
+
+5.ORM
+
+orm英文全称object relational mapping,就是对象映射关系程序，简单来说我们类似python这种面向对象的程序来说一切皆对象，但是我们使用的数据库却都是关系型的，为了保证一致的使用习惯，通过orm将编程语言的对象模型和数据库的关系模型建立映射关系，这样我们在使用编程语言对数据库进行操作的时候可以直接使用编程语言的对象模型进行操作就可以了，而不用直接使用sql语言
+

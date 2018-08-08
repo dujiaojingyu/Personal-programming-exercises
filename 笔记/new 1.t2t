@@ -1,0 +1,69 @@
+jQuery
+1.jQuery对象($)
+	jQuery 对象就是通过jQuery包装DOM对象后产生的对象。jQuery 对象是 jQuery 独有的. 
+	如果一个对象是 jQuery 对象, 那么它就可以使用 jQuery 里的方法: $(“#test”).html();
+	
+2.基本语法
+	jquery的基础语法：$(selector).action()
+	
+3.寻找元素(选择器和筛选器) 
+	 1）选择器
+		基本选择器
+			$("*")  $("#id")   $(".class")  $("element")  $(".class,p,div")    // $(".class")拿到的class不是一个标签，可以拿到很多相同的class标签
+			
+		层级选择器 
+			$(".outer div") //后代选择器      $(".outer>div") //子代选择器   $(".outer+div")//兄弟标签(必须是向下紧挨的)  $(".outer~div")//兄弟标签不用紧挨着
+			
+		基本筛选器  
+			$("li:first")//第一个  $("li:eq(2)")//最后一个  $("li:even")//奇数 $("li:gt(1)")//大于第一个  $("li:lt(1)") //小于第一个
+		
+		属性选择器
+			$('[id="div1"]')   $('["alex="sb"][id]')
+			
+		表单选择器 
+			$("[type='text']")----->$(":text")         注意只适用于input标签  : $("input:checked")
+			
+	2）筛选器
+		过滤筛选器   	
+			$("li").eq(2)  $("li").first()  $("ul li").hasclass("test")
+			
+		查找筛选器
+			$("div").children(".test")   $("div").find(".test")                           
+			$(".test").next()            $(".test").nextAll()      $(".test").nextUntil() 								   
+			$("div").prev()              $("div").prevAll()        $("div").prevUntil()   								
+			$(".test").parent()          $(".test").parents()      $(".test").parentUntil() 
+			$("div").siblings()
+			
+4.操作元素			
+	1）属性操作
+		属性
+		$("").attr();    //既可以取值也可以赋值，用于自己赋予的属性操作
+		$("").removeAttr();
+		$("").prop();		//用于固有的属性操作
+		$("").removeProp();
+		CSS类
+		$("").addClass(class|fn)
+		$("").removeClass([class|fn])
+		HTML代码/文本/值
+		$("").html([val|fn])	//找到标签替换标签内容
+		$("").text([val|fn])
+		$("").val([val|fn|arr])
+		
+		$("").css("color","red")
+			
+	
+	jquery循环的两种方式
+			方式一
+			li=[10,20,30,40]
+			dic={name:"yuan",sex:"male"}
+			
+			$.each(li,function(i,x){
+               console.log(i,x)
+			})
+
+			方式二
+            $("tr").each(function(){
+                console.log($(this).html())
+            })
+
+			

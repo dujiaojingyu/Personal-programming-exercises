@@ -1,0 +1,30 @@
+__author__ = "Narwhale"
+# import unittest
+# from name_function import get_formatted_name
+#
+# class NameTestCase(unittest.TestCase):
+#     '''测试name_function.py'''
+#     def test_first_last_name(self):
+#         '''能够正确处理像Janis Joplin这样的名字吗？'''
+#         formatted_name = get_formatted_name('janis','joplin')
+#         self.assertEqual(formatted_name,'Janis Joplin')
+#
+# unittest.main()
+
+
+
+#-----------------------------------------------------------------------------
+
+import unittest
+from name_function import get_formatted_name
+
+class NameTestCase(unittest.TestCase):
+    '''测试name_functiom.py'''
+    def test_first_last_name(self):
+        formatted_name = get_formatted_name('janis','joplin')
+        self.assertEqual(formatted_name,'Janis Joplin')
+    def test_first_last_modle_name(self):
+        '''能够正确处理像Janis Amadeus Joplin这样的名字吗？'''
+        formatted_name = get_formatted_name('janis','joplin','amadeus')
+        self.assertEqual(formatted_name,'Janis Amadeus Joplin')
+# unittest.main()

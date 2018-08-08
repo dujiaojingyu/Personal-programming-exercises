@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<meta charset='utf-8'>
+<title>统一发票兑奖网</title>
+</head>
+<body>
+	<script>
+		var ref = new Firebase('https://python01.firebaseio.com/invlotto');
+
+		ref.on("value", function(snapshot) {
+
+			inv_lottos = snapshot.val();
+  			var inv_tables = "";
+			for (var key in inv_lottos) {
+
+				inv_tables += "<table width=600 border=2 align=center>";
+				inv_tables = inv_tables + "<tr><td>开奖月份</td><td>" + key + "</td></tr>";
+				inv_month = inv_lottos[key];
+				for (id in inv_month) {
+					inv_tables = inv_tables + "<tr><td>1000万特别奖</td><td>" 
+											+ inv_month[id]['p1000w'] + "</td></tr>";
+					inv_tables = inv_tables + "<tr><td>200万特奖</td><td>" 
+											+ inv_month[id]['p200w'] + "</td></tr>";
+					inv_tables = inv_tables + "<tr><td>20万头奖</td><td>";
+					for(var i in inv_month[id]['p20w']) {
+						inv_tables = inv_tables + inv_month[id]['p20w'][i] + "&nbsp;";
+					}
+					inv_tables = inv_tables + "</td></tr>";
+					inv_tables = inv_tables + "<tr><td>200元增开六奖</td><td>";
+					for(var i in inv_month[id]['p200']) {
+						inv_tables = inv_tables + inv_month[id]['p200'][i] + "&nbsp;";
+					}
+					inv_tables = inv_tables + "</td></tr>";
+				}
+				inv_tables += '</table><br>';
+			}
+			$('#inv_tables').html(inv_tables);
+
+		}, function (errorObject) {
+  			console.log("The read failed: " + errorObject.code);
+		});
+	</script>
+<center>
+<h2>统一发票兑奖网</h2>
+<p>本网页仅供参考，请以兑奖部门的门户网站的公布为准</p>
+</center>
+<div id='inv_tables'>
+</div>
+</body>
+</html>
