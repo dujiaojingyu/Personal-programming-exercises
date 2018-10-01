@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(function () {
+        $.get( "var.html", function( data ) {
+            $("body").insertAfter( "body" );
+        });
+        $("body").append("bbb");
+    });
+    </script>
+</html>
